@@ -1,11 +1,11 @@
 pub fn calcula_nota() {
-    let notas: [f32; 4] = [6.5; 4];
-    let inteiro: u64 = 0;
+    let notas: [f32; 5] = [6.5; 5]; // inicializa todas as notas de valor 6.5
+    let inteiro: usize = 0;
 
     println!("{}", notas[inteiro]);
 
     for indice in 0..notas.len() {
-        println!("A nota {} é = {}", indice + 1, notas[indice])
+        println!("A nota {} é = {}", indice + 1, notas[indice]);
     }
 }
 
@@ -17,7 +17,7 @@ pub fn matriz() {
 
     for linha in matriz {
         for item in linha {
-            println!("Item = {}", item)
+            println!("Item = {}", item);
         }
     }
 }
