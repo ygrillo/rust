@@ -7,6 +7,7 @@ mod pattern_matching;
 mod tratamento_erros;
 mod agrupar_dados;
 mod criacao_tipos;
+mod tipos_opcionais;
 
 
 fn main() {
@@ -21,4 +22,5 @@ fn main() {
     agrupar_dados::calcula_nota();
     agrupar_dados::matriz();
     criacao_tipos::valida_fim_de_semana(criacao_tipos::DiaDaSemana::Domingo);
+    tipos_opcionais::conteudo_opcional();
 }
