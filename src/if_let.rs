@@ -13,7 +13,7 @@ pub fn conteudo_opcional_if_let() {
     }
 }
 
-fn ler_arquivo_if_let(caminho_arquivo: String) -> Option<String> {
+fn ler_arquivo_if_let(_caminho_arquivo: String) -> Option<String> {
     Some(String::from("Conteudo do arquivo"))
     // None
 }

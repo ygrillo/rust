@@ -9,7 +9,7 @@ pub fn conteudo_opcional() {
     println!("{:?}", &conteudo_arquivo)
 }
 
-fn ler_arquivo(caminho_arquivo: String) -> Option<String> {
+fn ler_arquivo(_caminho_arquivo: String) -> Option<String> {
     Some(String::from("Conteudo do arquivo"))
     // None
 }
