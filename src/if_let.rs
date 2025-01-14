@@ -9,7 +9,7 @@ pub fn conteudo_opcional_if_let() {
     println!("{:?}", &conteudo_arquivo);
 
     if let Some(valor) = conteudo_arquivo {
-        println!("Agora tenho certeza de que há o valor {}", valor);
+        println!("Agora tenho certeza de que há o valor '{}'", valor);
     }
 }
 
