@@ -1,5 +1,5 @@
 pub fn conteudo_opcional_if_let() {
-    let conteudo_arquivo = ler_arquivo(String::from(""));
+    let conteudo_arquivo = ler_arquivo_if_let(String::from(""));
 
     match &conteudo_arquivo {
         Some(valor) => println!("{}", valor),
