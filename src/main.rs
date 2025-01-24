@@ -11,6 +11,7 @@ mod tipos_opcionais;
 mod if_let;
 mod vectors_tamanho_dinamico;
 mod percorrendo_vecs;
+mod structs;
 
 
 fn main() {
@@ -29,4 +30,5 @@ fn main() {
     if_let::conteudo_opcional_if_let();
     vectors_tamanho_dinamico::vetores();
     percorrendo_vecs::vetores();
+    structs::conta_corrent();
 }
