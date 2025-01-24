@@ -10,6 +10,7 @@ mod criacao_tipos;
 mod tipos_opcionais;
 mod if_let;
 mod vectors_tamanho_dinamico;
+mod percorrendo_vecs;
 
 
 fn main() {
@@ -27,4 +28,5 @@ fn main() {
     tipos_opcionais::conteudo_opcional();
     if_let::conteudo_opcional_if_let();
     vectors_tamanho_dinamico::vetores();
+    percorrendo_vecs::vetores();
 }
